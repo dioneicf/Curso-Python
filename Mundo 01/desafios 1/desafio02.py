@@ -1,0 +1,6 @@
+nome = input('\033[32mDigite seu nome: ')
+dia = input('\033[32mDigite o dia do seu nascimento: ')
+mes = input('\033[32mDigite o mês do seu nascimento: ')
+ano = input('\033[32mDigite o ano do seu nascimento: ')
+print('\033[30m{} nascido em {}/{}/{} '.format(nome, dia, mes, ano))
+print()

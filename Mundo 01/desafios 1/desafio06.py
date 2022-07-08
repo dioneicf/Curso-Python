@@ -1,0 +1,5 @@
+num = int(input('\033[1;36mDigite um número: '))
+print('\033[1;35mO dobro desse número: {}'.format(num*2))
+print('\033[1;35mO triplo desse número: {}'.format(num*3))
+print('\033[1;35mA raiz quadrada desse numero: {}'.format(num ** (1/2)))
+print('\033[1;35mRaiz quadrada utilizando a função pow: {:.2f}'.format(pow(num,(1/2))))
